@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 1280px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+   background-image: url('../image/67.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: serif;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: rgba(199, 232, 235, 0.568);
+    height: 25px;
+    padding-left: 10px;
+}
+.wrapper{
+    
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgb(140, 151, 158);
+    border-radius: 20px;
+    box-shadow:inset 0 0 10px rgb(3, 151, 209);
+}
+.teapot{
+    background-image: url("../image/01.jpeg"); 
+}
+.teapot1{
+    background-image: url("../image/3.jpg"); 
+}
+.teapot2{
+    background-image: url("../image/1.jpg"); 
+}
+.teapot3{
+    background-image: url("../image/54.jpg");
+    margin-left: 150px;
+    background-repeat: no-repeat; 
+    height: 250px;
+    width: 230px; 
+}
+.teapot,
+.teapot1,
+.teapot2{
+    margin-left: 60px;
+    background-repeat: no-repeat; 
+    height: 250px;
+    width: 230px;
+
+}
+.info{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+#btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid rgb(61, 26, 26);
+    background-color: rgb(7, 230, 230);
+    border-radius: 10px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: rgb(9, 150, 150);
+    color: #fff;
+    box-shadow: 0 0 2px rgb(3, 151, 209);
+    border: 2px solid transparent;
+}
+.teapotOff{
+    margin-top: 20px;
+}
+.teapotOffImg{
+    background-image: url("../image/1.jpg");
+    margin-left: 60px;
+    background-repeat: no-repeat; 
+    height: 250px;
+    width: 230px;
+}
+.decoration{
+    flex-direction: column;
+    justify-content: center;
+}
